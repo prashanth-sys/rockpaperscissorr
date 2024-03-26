@@ -9,15 +9,15 @@
   background-color: #223a5f;
   background-size: cover;
   color: #ffffff;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
 }
 .rock-start {
   width: 100px;
   height: 39px;
-  background-color: #223a5f;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #223a5f;
   font-family: 'Bree serif';
   border-width: 0px;
   border-radius: 5px;

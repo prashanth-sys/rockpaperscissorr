@@ -13,6 +13,7 @@ const RockPaperHomePage = () => (
         </button>
       </Link>
     </div>
+    <h1 className="rock-heading">Rock Paper Scissor</h1>
 
     <img
       src="https://res.cloudinary.com/dlsuy2qn2/image/upload/v1708572334/Group_7469_1_i9ovya.png"

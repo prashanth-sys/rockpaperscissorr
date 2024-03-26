@@ -9,15 +9,10 @@ import './index.css'
 class MemoryMatrix extends Component {
   state = {
     highlightedIndices: [],
-
     clickedIndex: null,
-
     clickedIndices: [],
-
     array: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-
     gridSize: 3,
-
     level: 1,
     progress: 0,
     results: true,

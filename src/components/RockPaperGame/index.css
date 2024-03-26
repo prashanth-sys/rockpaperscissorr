@@ -1,27 +1,139 @@
 .bg-container {
   background-color: #223a5f;
   background-size: cover;
-  min-height: 120vh;
-  padding: 0px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+.card-container {
+  background-color: transparent;
+  border: solid #ffffff 2px;
+  width: 50%;
+  align-self: center;
+  border-radius: 5px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-page-heading {
+  color: #ffffff;
+  margin-top: 0px;
+  font-family: 'Bree serif';
+  text-align: center;
+  font-weight: 400;
+}
+.score-container {
+  background-color: #ffffff;
+  color: #223a5f;
+  margin-right: 45px;
+  margin: 9px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+.score-heading {
+  font-family: 'Bree Serif';
+  font-size: 21px;
+}
+.scores-heading {
+  font-family: 'Roboto';
+}
+.r-p-s-image {
+  width: 100%;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button {
+  background-color: #ffffff;
+  height: 32px;
+  width: 69px;
+  font-family: 'Bree Serif';
+  border-width: 0px;
+  border-radius: 5px;
+  color: #223a5f;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.game-button {
+  background-color: transparent;
+  border-width: 0px;
+  width: 120%;
+  height: 120%;
+}
+.selected-image {
+  width: 30%;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game-container {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 5%;
+}
+.play-again-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 9%;
+}
+.playButton {
+  background-color: #ffffff;
+  height: 39px;
+  width: 140px;
+  border-width: 0px;
+  font-family: 'Bree Serif';
+  color: #223a5f;
+  border-radius: 9px;
+}
+.game-show-container {
+  display: flex;
+}
+.test-1 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 400px;
+  height: 400px;
+  color: #ffffff;
+  margin-top: 0px;
+}
+.your-custom-class {
+  align-self: flex-end;
+}
+.game-result {
+  font-family: 'Bree serif';
+  color: #ffffff;
+}
+
 .rock-rules-card {
   display: flex;
-
   justify-content: space-between;
-
   padding: 9px;
-
-  margin-left: -50%; /* Shift left by 50% to center align */
-
-  margin-right: -50%; /* Shift right by 50% to center align */
-
+  margin-left: -50%;
+  margin-right: -50%;
   width: 200%;
 }
 
-.game-back-button {
+.rock-back-button {
   width: 100px;
   display: flex;
   align-items: center;
@@ -29,16 +141,18 @@
   color: #ffffff;
   border-width: 0px;
 }
+
 .arrow-icon {
   padding: 5px;
   font-size: 30px;
-  color: #ffffff;
 }
+
 .arrow-back {
   font-family: 'Bree serif';
   font-size: 15px;
   color: #ffffff;
 }
+
 .game-rules-button {
   background-color: transparent;
   color: #ffffff;
@@ -49,6 +163,13 @@
   font-family: 'Bree serif';
   font-size: 17px;
   margin-right: 10%;
+}
+
+.rock-heading {
+  font-family: 'Bree serif';
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
 }
 
 @media (max-width: 575.98px) {
