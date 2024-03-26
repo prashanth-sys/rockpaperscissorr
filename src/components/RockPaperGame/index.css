@@ -1,0 +1,79 @@
+.bg-container {
+  background-color: #223a5f;
+  background-size: cover;
+  min-height: 120vh;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rock-rules-card {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 9px;
+
+  margin-left: -50%; /* Shift left by 50% to center align */
+
+  margin-right: -50%; /* Shift right by 50% to center align */
+
+  width: 200%;
+}
+
+.game-back-button {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 0px;
+}
+.arrow-icon {
+  padding: 5px;
+  font-size: 30px;
+  color: #ffffff;
+}
+.arrow-back {
+  font-family: 'Bree serif';
+  font-size: 15px;
+  color: #ffffff;
+}
+.game-rules-button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  height: 50px;
+  width: 90px;
+  border-radius: 5px;
+  font-family: 'Bree serif';
+  font-size: 17px;
+  margin-right: 10%;
+}
+
+@media (max-width: 575.98px) {
+  .card-container {
+    width: 90%;
+  }
+}
+
+/* Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Playing View */
+@media (min-width: 768px) {
+  .bg-container {
+    padding: 20px;
+  }
+  .card-container {
+    width: 50%;
+    margin-top: 55px;
+  }
+}
+
+/* Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Game Results View */
+@media (min-width: 768px) {
+  /* Add styles for game results view here */
+}
+
+/* Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Game Rules View */
+@media (min-width: 768px) {
+  /* Add styles for game rules view here */
+}
